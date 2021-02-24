@@ -1,0 +1,250 @@
+html,
+body {
+    height: 100%;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: auto auto;
+    text-align: auto;
+    position: relative;
+}
+
+.box {
+    text-align: center center;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin: 50px auto 10px;
+    border: 1px solid #ccc;
+}
+
+header {
+    padding: 5px;
+    font-size: 23px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Lobster Two', cursive;
+}
+
+input[type=text],
+input[type=password] {
+    width: 75%;
+    padding: 12px 10px;
+    margin: 8px 45px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+button {
+    background-color: skyblue;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 45px;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+    font-weight: bold;
+}
+
+.or > h6 {
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    color: dimgrey;
+}
+
+.or > h6:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    top: 50%;
+    margin-left: 50px;
+}
+
+.or > h6:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-right: 50px;
+}
+
+.fb img {
+    float: left;
+    margin-left: 85px;
+    padding-right: 10px;
+}
+
+.fb a {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #00008B;
+    text-decoration: none;
+}
+
+.fpsw a {
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: dimgrey;
+    font-family: 'Josefin Slab', serif;
+}
+
+.box2 {
+    width: 350px;
+    height: 60px;
+    background-color: white;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+
+.signUp h5 {
+    font-family: 'Josefin Slab', serif;
+    color: dimgrey;
+    float: left;
+    margin-left: 70px;
+    font-size: 15px;
+}
+
+.signUp h4 {
+    float: left;
+    padding-left: 5px;
+    margin-top: 23px;
+    color: #00BFFF;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.get {
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+}
+
+.apple img {
+    float: left;
+    padding-left: 35px;
+}
+
+.android img {
+    float: left;
+    margin-top: -5px;
+    width: 150px;
+    height: 53px
+}
+
+.footer {
+    max-width: 1000px;
+    margin: 110px auto;
+    text-align: center;
+    position: relative;
+    clear: both;
+}
+
+.links ul {
+    max-width: 400px;
+    margin-bottom: 0;
+    margin:auto;
+}
+
+.links ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: -10px;
+    padding-right: 23px;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-bottom: 10px;
+
+
+}
+
+.links a {
+    text-decoration: none;
+    color: #0047b3;
+}
+
+
+.copyright h5 {
+    margin-top: 0;
+    font-family: 'Josefin Slab', serif;
+}
+
+.mainImage img {
+    object-fit: cover;
+    object-position: 10;
+    width: 400px;
+    height: 580px;
+    float: left;
+    display: inline-block;
+    margin-left: 170px;
+    border-radius: 20%;
+}
+
+@media screen and (max-width: 1200px) {
+    div.mainImage {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 1300px) {
+    div.mainImage {
+        position: relative;
+        padding-right: 50px;
+        margin-left: 1200px
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    div.links {
+        max-width: 1020px;
+    }
+    
+    div.footer {
+        max-width: 1020px;
+        margin-top: 110px;
+    }
+    
+    div.footer ul {
+        max-width: 1020px;
+        display: inline-block;
+        float:left;
+        padding-right: 30px;
+    }
+    
+    div.main {
+        margin-top: 50px;
+        position: relative;
+        margin-left: 400px;
+    }
+    
+    div.mainImage {
+        position: relative;
+        padding-right: 50px;
+        margin-left: 200px;
+    }
+    
+    div.copyright {
+        padding-top: 5px;
+    }
+}
+
+    
